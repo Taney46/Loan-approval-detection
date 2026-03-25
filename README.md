@@ -114,7 +114,5 @@ Outputs: 4 results figures in `outputs/figures/`
 4. **Models** — Random Forest (bagging) vs XGBoost (boosting), tuned via Grid Search + 5-fold stratified CV
 5. **Evaluation** — Accuracy, Precision, Recall, F1-score, AUC-ROC, Confusion Matrix, Feature Importance
 
----
-xgboost>=1.7.0
 imbalanced-learn>=0.10.0
 ```
