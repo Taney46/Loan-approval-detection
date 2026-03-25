@@ -1,6 +1,6 @@
 # Loan Approval Prediction Using Supervised Machine Learning
 
-**Group 4** — Juanita Chepchumba · Timothy Ng'etich · Hassan Kuloba  
+**Group 4**: Juanita Chepchumba · Timothy Ng'etich · Hassan Kuloba  
 University of Eastern Africa, Baraton | COSC440: Artificial Intelligence
 
 ---
@@ -9,7 +9,7 @@ University of Eastern Africa, Baraton | COSC440: Artificial Intelligence
 
 | Model | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |---|---|---|---|---|---|
-| **Random Forest** ✓ | 77.24% | 84.34% | 82.35% | **83.33%** | **80.84%** |
+| **Random Forest** | 77.24% | 84.34% | 82.35% | **83.33%** | **80.84%** |
 | XGBoost | 77.24% | 86.08% | 80.00% | 82.93% | 78.61% |
  
 Random Forest was selected as the final model based on highest F1-score and AUC-ROC.
@@ -21,7 +21,7 @@ Random Forest was selected as the final model based on highest F1-score and AUC-
 > **The dataset is not included in this repository.**  
 > Download it from Kaggle before running the scripts:
 >
-> 📥 [Analytics Vidhya — Loan Prediction Problem Dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
+> [Analytics Vidhya — Loan Prediction Problem Dataset](https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-dataset)
 >
 > Place the downloaded files in the `data/` folder as `train.csv` and `test.csv`.
 
@@ -113,6 +113,4 @@ Outputs: 4 results figures in `outputs/figures/`
 3. **Class imbalance** — SMOTE applied to 80% training partition only (balanced to 337/337)
 4. **Models** — Random Forest (bagging) vs XGBoost (boosting), tuned via Grid Search + 5-fold stratified CV
 5. **Evaluation** — Accuracy, Precision, Recall, F1-score, AUC-ROC, Confusion Matrix, Feature Importance
-
-imbalanced-learn>=0.10.0
 ```
